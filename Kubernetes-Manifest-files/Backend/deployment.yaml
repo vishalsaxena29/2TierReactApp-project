@@ -48,7 +48,8 @@ metadata:
   namespace: two-tier
 spec: 
   ports:
-  - port: 3500
+  - port: 5000
+    targetPort: 5000
     protocol: TCP
   type: ClusterIP
   selector:
